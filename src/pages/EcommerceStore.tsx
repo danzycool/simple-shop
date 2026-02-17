@@ -4,7 +4,7 @@ import ChatWidget from "../components/ChatWidget";
 
 const EcommerceStore = () => {
   return (
-    <div>
+    <div className="app">
       <header className="header">
         <div className="container">
           <div className="top-bar">
@@ -29,35 +29,35 @@ const EcommerceStore = () => {
                 <span className="badge">{2}</span>
               </a>
             </div>
-
-            <nav className="nav-bar">
-              <ul>
-                <li>
-                  <a href="#" className="active">
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a href="#">Electronics</a>
-                </li>
-                <li>
-                  <a href="#">Clothing</a>
-                </li>
-                <li>
-                  <a href="#">Home & Kitchen</a>
-                </li>
-                <li>
-                  <a href="#">Beauty</a>
-                </li>
-                <li>
-                  <a href="#">Sports</a>
-                </li>
-                <li>
-                  <a href="#">Deals</a>
-                </li>
-              </ul>
-            </nav>
           </div>
+
+          <nav className="nav-bar">
+            <ul>
+              <li>
+                <a href="#" className="active">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#">Electronics</a>
+              </li>
+              <li>
+                <a href="#">Clothing</a>
+              </li>
+              <li>
+                <a href="#">Home & Kitchen</a>
+              </li>
+              <li>
+                <a href="#">Beauty</a>
+              </li>
+              <li>
+                <a href="#">Sports</a>
+              </li>
+              <li>
+                <a href="#">Deals</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </header>
 
